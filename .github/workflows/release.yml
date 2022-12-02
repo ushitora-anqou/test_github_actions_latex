@@ -16,4 +16,4 @@ jobs:
       - name: Create a release
         uses: softprops/action-gh-release@v1
         with:
-          files: $FILENAME.pdf
+          files: ${{ env.FILENAME }}.pdf
